@@ -4,8 +4,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import matplotlib.pyplot as plt
-import seaborn as sns
-from my_module import MyCustomTransformer
+import seaborn as sn 
 import joblib
 
 pipeline = joblib.load("protest_risk_pipeline.pkl")
